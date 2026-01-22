@@ -1,2 +1,10 @@
-# energy-drink-landing-page
-Landing page de um energético fictício, desenvolvida com HTML e CSS, com foco em estrutura semântica e layout responsivo.
+# Energy Drink Landing Page
+
+Landing page de um energético fictício desenvolvida com HTML e CSS.
+
+## Tecnologias
+- HTML5
+- CSS3 (Flexbox)
+
+## Objetivo
+Projeto criado para praticar estrutura semântica e layout responsivo.
