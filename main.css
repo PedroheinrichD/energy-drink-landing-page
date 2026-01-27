@@ -4,6 +4,7 @@
     align-items: center;
 }
 
+
 .BannerText h1 {
     letter-spacing: -4px;
     height: 86px;
@@ -72,12 +73,12 @@
 
 .buttonsMAIN {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 12px;
 }
 
 
-.button--green{
+.button--green {
     gap: 10px;
     display: flex;
     justify-content: center;
@@ -96,12 +97,12 @@
     transform: scale(1);
 }
 
-.button--green img{
+.button--green img {
     height: 18px;
 }
 
 
-.button--white{
+.button--white {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,8 +120,35 @@
 }
 
 
-.button--green:hover,.button--white:hover{
+.button--green:hover,
+.button--white:hover {
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale(1.05);
+}
+
+
+
+/*TEXTBALLS- ASIDE*/
+
+#textsBalls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.ball--texts{
+    height: 9px;
+    width: 9px;
+}
+
+.ball1,
+.ball2,
+.ball3,
+.ball4 {
+    color: #9da099;
+    gap: 10px;
+    display: flex;
+    align-items: center;
 }
