@@ -8,3 +8,8 @@ body{
     background-color: #fbfef9;
     font-family: "DM sans";
 }
+
+a{
+    text-decoration: none;
+    color: #0e1a03;
+}

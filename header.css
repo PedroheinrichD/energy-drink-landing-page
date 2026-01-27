@@ -45,9 +45,10 @@ ul{
     list-style-type: none;
 }
 
-button{
+.buttonHEADER button{
     cursor: pointer;
     background-color: #c7fd4d;
+    border: 1px 1px #a2e20d;
     height: 40px;
     width: 130px;
     border-radius: 19px;
@@ -59,7 +60,7 @@ button{
 }
 
 
-button:hover{
+.buttonHEADER button:hover{
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale(1.05);
