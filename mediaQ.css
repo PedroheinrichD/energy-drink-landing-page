@@ -1,0 +1,22 @@
+/*-------- HEADER --------*/
+
+/* notebook pequeno */
+@media (max-width: 1050px) {
+
+    header nav{
+        display: none;
+    }
+
+
+    .buttons__burger{
+        display: flex;
+    }
+
+
+}   
+
+/* celular grande / tablet */
+@media (max-width: 768px) {}
+
+/* celular */
+@media (max-width: 480px) {}
