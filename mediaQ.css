@@ -3,20 +3,195 @@
 /* notebook pequeno */
 @media (max-width: 1050px) {
 
-    header nav{
+
+    /*=======HEADER=======*/
+
+    header nav {
         display: none;
     }
 
 
-    .buttons__burger{
+    .buttons__burger {
         display: flex;
+        align-items: end;
     }
 
 
-}   
+    header {
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    /*=======BANNER=======*/
+
+    #BannerContainer {
+        flex-direction: column;
+
+    }
+
+    .BannerText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+}
+
+
+
+
+
 
 /* celular grande / tablet */
-@media (max-width: 768px) {}
+@media (max-width: 580px) {
+
+    /*=======BANNER=======*/
+
+    .BannerText h1,
+    .greenTextBanner {
+        font-size: 70px;
+    }
+
+    .BannerText h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    /*=======BAR=======*/
+    .bar {
+        width: 235px;
+        height: 28px;
+    }
+
+    .ballGreen {
+        width: 8px;
+        height: 8px;
+    }
+
+    #barText {
+        font-size: 9.5px;
+    }
+
+
+
+    /* =====BUTTONS===== */
+
+    .button--green {
+        height: 54px;
+        width: 184px;
+        font-size: 14px;
+    }
+
+    .button--green img {
+        height: 18px;
+    }
+
+
+    .button--white {
+        height: 50px;
+        width: 180px;
+    }
+
+
+    /*TEXTBALLS- ASIDE*/
+
+    #textsBalls {
+        flex-wrap: wrap;
+    }
+
+    .ball--texts {
+        height: 9px;
+        width: 9px;
+    }
+
+
+}
+
+
+
+
 
 /* celular */
-@media (max-width: 480px) {}
+@media (max-width: 420px) {
+
+    /*=======HEADER=======*/
+
+    .buttonHEADER{
+        display: none;
+    }
+
+    .buttons__burger {
+        width: 29px;
+        height: 24px;
+    }
+
+    header {
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+
+    /*=======BANNER=======*/
+
+    .BannerText h1,
+    .greenTextBanner {
+        font-size: 60px;
+    }
+
+    .BannerText h3 {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    /*=======BAR=======*/
+
+    .bar {
+        width: 205px;
+        height: 28px;
+    }
+
+    .ballGreen {
+        width: 6px;
+        height: 6px;
+    }
+
+    #barText {
+        font-size: 8px;
+    }
+
+    /* =====BUTTONS===== */
+
+    .button--green {
+        height: 54px;
+        width: 154px;
+        font-size: 11px;
+    }
+
+    .button--green img {
+        height: 18px;
+    }
+
+
+    .button--white {
+        font-size: 13px;
+        height: 50px;
+        width: 150px;
+    }
+
+
+    /*TEXTBALLS- ASIDE*/
+
+    #textsBalls {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+    .ball--texts {
+        height: 9px;
+        width: 9px;
+    }
+
+}
