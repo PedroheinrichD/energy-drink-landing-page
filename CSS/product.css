@@ -1,0 +1,92 @@
+#productCard {
+    background-image: linear-gradient(to right, #e9f6d4, #FFF);
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.card {
+    display: flex;
+    align-items: start;
+    background-color: #FFF;
+    border-radius: 35px;
+    height: 570px;
+    width: 860px;
+}
+
+
+.img_Product_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    overflow: hidden;
+    height: 560px;
+
+}
+
+.img_Product_card img {
+    height: 650px;
+
+}
+
+.text_Product_card {
+    height: 100%;
+    flex: 1;
+}
+
+#flavor {
+    color: #b6e074;
+}
+
+#titleProduct {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+
+#descProduct {
+    color: #c2c2c2;
+}
+
+.badges1,
+.badges2,
+.badges3,
+.badges4 {
+    background-color: #F3F3F3;
+    color: #8F8F8F;
+    font-family: "Poppins", sans-serif;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 14.3px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+.text_Product_card ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonCart{
+    background-color: #84CC16;
+    width: 130px;
+    height: 40px;
+    border-radius: 55px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transition-property: transform;
+    transition-duration: 0.3s;
+    transform: scale(1);
+}
+
+.buttonCart:hover{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(1.05);
+}

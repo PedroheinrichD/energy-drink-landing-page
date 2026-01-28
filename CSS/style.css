@@ -9,12 +9,13 @@
     overflow-x: hidden;
 }
 
-body{
+body {
     background-color: #fbfef9;
-    font-family: "DM sans";
+    font-family: "Poppins", sans-serif;
+
 }
 
-a{
+a {
     text-decoration: none;
     color: #0e1a03;
 }
