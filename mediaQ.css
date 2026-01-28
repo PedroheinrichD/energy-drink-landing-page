@@ -37,6 +37,11 @@
         margin-top: 50px;
     }
 
+    .BannerText h1 {
+        text-align: center;
+        width: 420px;
+    }
+
 }
 
 
@@ -119,7 +124,7 @@
 
     /*=======HEADER=======*/
 
-    .buttonHEADER{
+    .buttonHEADER {
         display: none;
     }
 
@@ -136,14 +141,45 @@
 
     /*=======BANNER=======*/
 
-    .BannerText h1,
+
+    .BannerText {
+        align-items: start;
+        margin-top: 0px;
+        width: 100vw;
+        padding-left: 30px;
+    }
+
+
     .greenTextBanner {
-        font-size: 60px;
+        font-size: 56px;
+    }
+
+    .BannerText h1 {
+        padding-top: 10px;
+        font-size: 56px;
+        text-align: start;
+        width: 416px;
     }
 
     .BannerText h3 {
-        font-size: 11px;
-        text-align: center;
+        width: 250px;
+        height: 60px;
+        font-size: 13px;
+        text-align: start;
+    }
+
+
+    .imgBanner {
+        position: relative;
+        right: 0px;
+        left: 78px;
+        bottom: 248px;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .imgBanner img {
+        height: 600px;
     }
 
     /*=======BAR=======*/
@@ -164,10 +200,17 @@
 
     /* =====BUTTONS===== */
 
+    .buttonsMAIN {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 12px;
+    }
+
     .button--green {
         height: 54px;
-        width: 154px;
-        font-size: 11px;
+        width: 184px;
+        font-size: 13px;
     }
 
     .button--green img {
@@ -176,22 +219,28 @@
 
 
     .button--white {
-        font-size: 13px;
+        font-size: 14px;
         height: 50px;
-        width: 150px;
+        width: 180px;
     }
 
 
     /*TEXTBALLS- ASIDE*/
 
     #textsBalls {
-        font-size: 12px;
+        flex-direction: column;
+        align-items: start;
+        font-size: 15px;
         flex-wrap: wrap;
     }
 
     .ball--texts {
-        height: 9px;
-        width: 9px;
+        height: 9.5px;
+        width: 9.5px;
     }
+
+
+
+
 
 }

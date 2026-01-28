@@ -8,6 +8,8 @@
 .BannerText h1 {
     letter-spacing: -4px;
     font-size: 84px;
+    line-height: 1;
+    overflow: hidden;
     text-transform: uppercase;
     margin: 0px;
     font-weight: 900;
@@ -17,7 +19,9 @@
 }
 
 .greenTextBanner {
-    letter-spacing: -4px;
+    overflow: hidden;
+    line-height: 1;
+    letter-spacing: -2px;
     font-weight: 900;
     font-size: 84px;
     text-transform: uppercase;
