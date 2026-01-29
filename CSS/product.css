@@ -1,5 +1,5 @@
 #productCard {
-    background-image: linear-gradient(to right, #e9f6d4, #FFF);
+    background-image: linear-gradient(to right, #ecf3e2, #FFF);
     height: 1000px;
     display: flex;
     align-items: center;
@@ -17,9 +17,9 @@
     width: 860px;
 }
 
-    .img_Product_card_MOBILE{
-        display: none;
-    }
+.img_Product_card_MOBILE {
+    display: none;
+}
 
 .img_Product_card_PC {
     display: flex;
@@ -37,6 +37,10 @@
 }
 
 .text_Product_card {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     flex: 1;
 }
@@ -46,11 +50,13 @@
 }
 
 #titleProduct {
+    font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
 }
 
 #descProduct {
+    margin-bottom: 20px;
     color: #a5a5a5;
 }
 
@@ -65,61 +71,97 @@
     text-align: center;
     font-size: 14.3px;
     padding: 0px 10px 0px 10px;
+    margin: 0px;
 }
 
 
-
 .text_Product_card ul {
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
 }
 
-.buttonCart{
+
+.containerButtonCart {
+    margin-top: 20px;
+    height: 65px;
+}
+
+.buttonCart {
+    width: 160px;
     background-color: #84CC16;
-    width: 130px;
-    height: 40px;
+    height: 50px;
     border-radius: 55px;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-     transition-property: transform;
+    transition-property: transform;
     transition-duration: 0.3s;
     transform: scale(1);
 }
 
-.buttonCart:hover{
+.buttonCart:hover {
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale(1.05);
 }
 
+.arrow-btn-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    height: 90px;
+}
+
 
 .arrow-btn {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  border: none;
-  background-color: #E9F5DB; /* verde clarinho */
-  color: #1f1f1f;
-  font-size: 24px;
-  font-weight: 600;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    border: 1px solid black;
 
-  cursor: pointer;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #e9f5db00;
+    /*background-color: #E9F5DB;*/
+    /* verde clarinho */
+    color: #1f1f1f;
+    font-size: 24px;
+    font-weight: 600;
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    gap: 180px;
+
 }
 
 .arrow-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
 }
 
 .arrow-btn:active {
-  transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+
+.left{
+    margin-right: 10px;
+}
+
+.right{
+    margin-left: 10px;
+}
+
+.mobileBTN{
+    display: none;
 }
