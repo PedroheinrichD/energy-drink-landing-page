@@ -17,8 +17,11 @@
     width: 860px;
 }
 
+    .img_Product_card_MOBILE{
+        display: none;
+    }
 
-.img_Product_card {
+.img_Product_card_PC {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +31,7 @@
 
 }
 
-.img_Product_card img {
+.img_Product_card_PC img {
     height: 650px;
 
 }
@@ -48,7 +51,7 @@
 }
 
 #descProduct {
-    color: #c2c2c2;
+    color: #a5a5a5;
 }
 
 .badges1,
@@ -89,4 +92,34 @@
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale(1.05);
+}
+
+
+.arrow-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #E9F5DB; /* verde clarinho */
+  color: #1f1f1f;
+  font-size: 24px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.arrow-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+}
+
+.arrow-btn:active {
+  transform: scale(0.95);
 }
