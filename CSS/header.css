@@ -46,6 +46,10 @@ ul{
     list-style-type: none;
 }
 
+.buttonHEADER{
+    padding: 10px;
+}
+
 .buttonHEADER button{
     cursor: pointer;
     background-color: #c7fd4d;

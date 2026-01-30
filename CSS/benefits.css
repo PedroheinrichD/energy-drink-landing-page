@@ -1,0 +1,139 @@
+#benefitsContainer {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0F0F0F;
+    padding: 50px;
+}
+
+.greenText {
+    font-size: 12px;
+    color: #afff00;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#benefitsContainer #titleBenefitsContainer {
+    font-size: 40px;
+    color: #FFF;
+}
+
+
+
+
+.minBarGreen {
+    width: 70px;
+    height: 2px;
+    background-color: #afff00;
+    margin-bottom: 50px;
+}
+
+
+/* BOXS */
+
+.boxAll {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 270px;
+    border-radius: 20px;
+    border: 1.8px solid #202020;
+    background-color: #1A1A1A;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 50px;
+    border-radius: 16px;
+}
+
+.icon img {
+    height: 54px;
+}
+
+
+.flashIcon {
+    background-image: url(iconsBenefits/flash-icon.png);
+    background-position: center;
+}
+
+
+
+/*TERMINAR DE COLOCAR O ICONE FIRE E DEIXAR RESPONSIVO A seção BENEFITS*/
+.fireIcon {
+    background-image: url(iconsBenefits/fire-icon.png);
+    background-position: center;
+    background-color: #37241e;
+}
+
+.brainIcon {
+    background-image: url(iconsBenefits/brain-icon.png);
+    background-position: center;
+}
+
+.starIcon {
+    background-image: url(iconsBenefits/star-icon.png);
+    background-position: center;
+}
+
+
+.box1 h2,
+.box4 h2 {
+    font-size: 40px;
+    color: #afff00;
+}
+
+.box2 h2 {
+    font-size: 40px;
+    color: #ff6b35;
+}
+
+.box3 h2 {
+    font-size: 40px;
+    color: #01d1fb;
+}
+
+.box h4 {
+    color: #FFF;
+}
+
+.box p {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    color: #6F6F6F;
+}
+
+.bigBarbox {
+    width: 225px;
+    height: 2px;
+}
+
+.greenBoxBar {
+    background-color: #afff00;
+}
+
+.orangeBoxBar {
+    background-color: #ff6b35;
+}
+
+.blueBoxBar {
+    background-color: #01d1fb;
+}
