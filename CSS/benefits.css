@@ -37,6 +37,7 @@
 .boxAll {
     gap: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -75,7 +76,6 @@
 
 
 
-/*TERMINAR DE COLOCAR O ICONE FIRE E DEIXAR RESPONSIVO A seção BENEFITS*/
 .fireIcon {
     background-image: url(iconsBenefits/fire-icon.png);
     background-position: center;

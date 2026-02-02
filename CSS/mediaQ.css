@@ -318,6 +318,16 @@
 }
 
 
+@media (max-width: 500px) {
+
+    .greenText {
+        font-size: 8px;
+    }
+
+    #benefitsContainer #titleBenefitsContainer {
+        font-size: 25px;
+    }
+}
 
 
 
