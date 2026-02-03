@@ -311,6 +311,12 @@
 
 
 
+    /*---------EVENTS SECTION---------*/
+    #activationEvents #subtitle {
+        width: 100%;
+        font-size: 15px;
+    }
+
 
 
 
@@ -535,6 +541,11 @@
 
 
 
+    /*---------EVENTS SECTION---------*/
+    #activationEvents #subtitle {
+        width: 100%;
+        font-size: 12px;
+    }
 
 
 
