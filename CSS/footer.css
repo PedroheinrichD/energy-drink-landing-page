@@ -1,0 +1,10 @@
+footer {
+    color: #FFF;
+    background-color: #121212;
+}
+
+.FooterBar {
+    width: 90vw;
+    height: 2px;
+    background-color: #232323;
+}
