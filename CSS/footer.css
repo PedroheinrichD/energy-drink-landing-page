@@ -1,10 +1,137 @@
 footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: #FFF;
     background-color: #121212;
 }
+
+#titleFooter {
+    font-weight: 800;
+    margin: 60px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.emailDiscount{
+    padding: 20px;
+}
+
+
+
+.emailDiscount input {
+    padding-left: 10px;
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #424242;
+    background-color: #1e1e1e;
+    color: #FFF;
+}
+
+::placeholder {
+    color: #555555;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #a3ff00;
+    box-shadow: 0 0 8px rgba(163, 255, 0, 0.6);
+    transition: all 0.3s ease;
+}
+
+.emailDiscount button {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #afff00;
+    border: 1px 1px #a2e20d;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+
+.emailDiscount button:hover {
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    background-color: #b6fa18;
+}
+
+#DownInput {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+#desc {
+    font-size: 14px;
+    width: 620px;
+    text-align: center;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+
+
+/*_____NAV_____*/
+
+#footerNav {
+    margin: 30px 0px;
+    gap: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footerNav ul {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#footerNav ul a {
+    transition-property: color;
+    transition-duration: 0.2s;
+    color: #a0a0a0;
+}
+
+#footerNav ul a:hover {
+    transition-property: color;
+    transition-duration: 0.2s;
+    color: #bebebe;
+
+}
+
+
 
 .FooterBar {
     width: 90vw;
     height: 2px;
     background-color: #232323;
+}
+
+.midBarMobile{
+    display: none;
+}
+
+
+.rightsReserved{
+    margin-top: 10px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightsReserved p{
+    color: #5b5956;
 }

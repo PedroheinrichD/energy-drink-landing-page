@@ -1,7 +1,7 @@
 /*-------- HEADER --------*/
 
 /* notebook pequeno */
-@media (max-width: 1050px) {
+@media (max-width: 1070px) {
 
 
     /*=======HEADER=======*/
@@ -43,8 +43,21 @@
     }
 
 
-    /*-------- PRODUCT CARD --------*/
+    /*-------- FOOTER --------*/
 
+    #footerNav {
+        margin: 30px 0px;
+        gap: 30px 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .midBarMobile {
+        display: block;
+    }
 
 }
 
@@ -73,6 +86,26 @@
         height: 500px;
     }
 }
+
+@media (max-width: 770px) {
+    /*-------- FOOTER --------*/
+
+    #desc {
+        padding: 0px 20px;
+        font-size: 14px;
+        width: 100vw;
+        text-align: center;
+        color: #a0a0a0;
+        margin-bottom: 40px;
+    }
+
+    .rightsReserved {
+        flex-direction: column;
+    }
+
+}
+
+
 
 
 
@@ -317,11 +350,49 @@
         font-size: 15px;
     }
 
+    /*-------- FOOTER --------*/
+
+    #footerNav {
+        margin: 30px 0px;
+        gap: 30px 120px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
 
+    .midBarMobile {
+        display: block;
+    }
 
+
+    #desc {
+        padding: 0px 20px;
+        font-size: 14px;
+        width: 100vw;
+        text-align: center;
+        color: #a0a0a0;
+        margin-bottom: 40px;
+    }
+
+
+    .emailDiscount input {
+        width: 230px;
+        height: 50px;
+    }
+
+
+    .emailDiscount button {
+        height: 40px;
+        width: 130px;
+    }
+
+    #footerNav ul {
+        gap: 10px;
+    }
 
 }
+
 
 
 @media (max-width: 500px) {
@@ -332,6 +403,25 @@
 
     #benefitsContainer #titleBenefitsContainer {
         font-size: 25px;
+    }
+}
+
+
+
+@media (max-width: 470px) {
+
+    /*-------- FOOTER --------*/
+    .emailDiscount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 20px 0px;
+    }
+
+
+    #footerNav ul a {
+        font-size: 12px;
     }
 }
 
@@ -549,5 +639,58 @@
 
 
 
+    /*-------- FOOTER --------*/
 
+    #footerNav {
+        margin: 30px 0px;
+        gap: 30px 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #DownInput {
+        margin-top: -15px;
+        font-size: 10px;
+        color: #555555;
+    }
+
+
+    #desc {
+        padding: 0px 20px;
+        font-size: 12px;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+
+    .emailDiscount input {
+        width: 180px;
+        height: 50px;
+    }
+
+
+    .emailDiscount button {
+        height: 40px;
+        width: 100px;
+    }
+
+
+    #footerNav ul h4 {
+        font-size: 12px;
+    }
+
+
+    .rightsReserved p {
+        font-size: 12px;
+        color: #5b5956;
+    }
+
+}
+
+
+@media (max-width: 370px) {
+    #footerNav ul a {
+        font-size: 10px;
+    }
 }
