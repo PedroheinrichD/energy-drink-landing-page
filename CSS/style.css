@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,4 +19,31 @@ body {
 a {
     text-decoration: none;
     color: #0e1a03;
+}
+
+
+/* estado inicial: escondido */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* quando aparece */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* variações */
+.reveal-left {
+    transform: translateX(-40px);
+}
+
+.reveal-right {
+    transform: translateX(40px);
+}
+
+.reveal-zoom {
+    transform: scale(0.95);
 }

@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -7,25 +7,25 @@ header{
 
 
 .logo {
-    max-width: 180px ;
+    max-width: 180px;
     display: flex;
 }
 
-.logo h2{
+.logo h2 {
     font-size: 30px;
 }
 
-.verde{
+.verde {
     display: flex;
     color: #b1f50c;
 }
 
-.cima{
+.cima {
     position: relative;
     bottom: 1px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #6d6d6a;
     font-weight: 500;
     text-decoration: none;
@@ -34,25 +34,24 @@ nav ul li a{
 }
 
 
-nav ul li a:hover{
+nav ul li a:hover {
     transition-property: color;
     transition-duration: 0.5s;
-    color: #4b4b48;    
+    color: #4b4b48;
 }
 
-ul{
+ul {
     display: flex;
     gap: 40px;
     list-style-type: none;
 }
 
-.buttonHEADER{
+.buttonHEADER {
     padding: 10px;
 }
 
-.buttonHEADER button{
+.buttonHEADER button {
     cursor: pointer;
-    background-color: #c7fd4d;
     border: 1px 1px #a2e20d;
     height: 40px;
     width: 130px;
@@ -62,10 +61,22 @@ ul{
     transition-property: transform;
     transition-duration: 0.3s;
     transform: scale(1);
+    background-size: 200% 100%;
+    animation: degradeAnimado 2s infinite alternate;
+}
+
+@keyframes degradeAnimado {
+    0%{
+        background-color: #c4f357;
+    }
+
+    100%{
+        background-color: #b3ff02;
+    }
 }
 
 
-.buttonHEADER button:hover{
+.buttonHEADER button:hover {
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale(1.05);
@@ -92,4 +103,3 @@ ul{
     border-radius: 4px;
     transition: all 0.3s ease;
 }
-

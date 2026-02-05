@@ -28,9 +28,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Flavours</a></li>
-                <li><a href="">Creators</a></li>
+                <li><a href="#BannerContainer">Home</a></li>
+                <li><a href="#productCard">Flavours</a></li>
+                <li><a href="#footer">Creators</a></li>
                 <li><a href="">Contact-us</a></li>
             </ul>
         </nav>
@@ -50,7 +50,7 @@
     <main>
         <section id="BannerContainer">
 
-            <div class="BannerText">
+            <div class="BannerText reveal">
                 <div class="bar">
                     <div class="ballGreen"></div>
                     <p id="barText">Better-for-you energy drink</p>
@@ -108,7 +108,7 @@
 
     <section id="productCard">
         <button class="arrow-btn left pcBTN">‹</button>
-        <div class="card">
+        <div class="card reveal">
             <div class="img_Product_card_PC">
                 <img src="assets/images/energyDrink png.png" alt="">
             </div>
@@ -146,7 +146,7 @@
         <div class="minBarGreen"></div>
 
         <div class="boxAll">
-            <div class="box box1">
+            <div class="box box1 reveal reveal-zoom ">
                 <div class="icon flashIcon"></div>
                 <h2>75mg</h2>
                 <h4>Natural Caffeine</h4>
@@ -155,21 +155,21 @@
             </div>
 
 
-            <div class="box box2">
+            <div class="box box2 reveal reveal-zoom">
                 <div class="icon fireIcon"></div>
                 <h2>Zero</h2>
                 <h4>Sugar Added</h4>
                 <p>All the taste, none of guilt</p>
                 <div class="bigBarbox orangeBoxBar"></div>
             </div>
-            <div class="box box3">
+            <div class="box box3 reveal reveal-zoom">
                 <div class="icon brainIcon"></div>
                 <h2>100%</h2>
                 <h4>Mental Clarity</h4>
                 <p>Enhanced focus & concentration</p>
                 <div class="bigBarbox blueBoxBar"></div>
             </div>
-            <div class="box box4">
+            <div class="box box4 reveal reveal-zoom">
                 <div class="icon starIcon">
 
                 </div>
@@ -188,7 +188,7 @@
 
         <div class="boxAllEvents">
 
-            <div class="boxevents">
+            <div class="boxevents reveal reveal-left">
                 <div class="iconEvents icon1Events ">
                     <img src="assets/icons/events-icon/star-bottomless.png" alt="">
                 </div>
@@ -197,7 +197,7 @@
                 <a href="#" greenLink LinkEvents>Find Events →</a>
             </div>
 
-            <div class="boxevents">
+            <div class="boxevents reveal reveal-left">
                 <div class="iconEvents icon1Events ">
                     <img src="assets/icons/events-icon/weight-bottomless.png" alt="">
                 </div>
@@ -206,7 +206,7 @@
                 <a href="#" greenLink LinkEvents>Partner With Us →</a>
             </div>
 
-            <div class="boxevents">
+            <div class="boxevents reveal reveal-left">
                 <div class="iconEvents icon1Events ">
                     <img src="assets/icons/events-icon/office-bottomless.png" alt="">
                 </div>
@@ -215,7 +215,7 @@
                 <a href="#" greenLink LinkEvents>Get Quote →</a>
             </div>
 
-            <div class="boxevents">
+            <div class="boxevents reveal reveal-left">
                 <div class="iconEvents icon1Events ">
                     <img src="assets/icons/events-icon/event-bottomless.png" alt="">
                 </div>
@@ -227,12 +227,12 @@
     </section>
 
 
-    <footer>
+    <footer id="footer">
         <h2 id="titleFooter">Ready to</h2>
 
         <div class="emailDiscount">
             <input type="email" placeholder="your@email.com" aria-label="Digite seu e-mail para ganhar desconto">
-            <button type="submit" >Get 25% Off</button>
+            <button type="submit">Get 25% Off</button>
         </div>
         <p id="DownInput">Join 50k+ dreamers. No spam, just energy</p><br>
         <p id="desc">NeXa Energy is a better-for-you energy drink crafted with natural flavors, zero sugar, and clean
@@ -244,36 +244,68 @@
 
             <ul class="nav">
                 <h4 id="titleNavFooter">Products</h4>
-                <a href="#"><li>Lemon Lime</li></a>
-                <a href="#"><li>Pineapple Coconut</li></a>
-                <a href="#"><li>Mystery</li></a>
-                <a href="#"><li>Bundles</li></a>
+                <a href="#">
+                    <li>Lemon Lime</li>
+                </a>
+                <a href="#">
+                    <li>Pineapple Coconut</li>
+                </a>
+                <a href="#">
+                    <li>Mystery</li>
+                </a>
+                <a href="#">
+                    <li>Bundles</li>
+                </a>
             </ul>
 
             <ul class="nav">
                 <h4 id="titleNavFooter">Quick Links</h4>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Flavours</li></a>
-                <a href="#"><li>Creators</li></a>
-                <a href="#"><li>Contact-us</li></a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Flavours</li>
+                </a>
+                <a href="#">
+                    <li>Creators</li>
+                </a>
+                <a href="#">
+                    <li>Contact-us</li>
+                </a>
             </ul>
 
             <div class="FooterBar midBarMobile"></div>
 
             <ul class="nav">
                 <h4 id="titleNavFooter">Company</h4>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Careers</li></a>
-                <a href="#"><li>Press</li></a>
-                <a href="#"><li>Distributors</li></a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Careers</li>
+                </a>
+                <a href="#">
+                    <li>Press</li>
+                </a>
+                <a href="#">
+                    <li>Distributors</li>
+                </a>
             </ul>
 
             <ul class="nav">
                 <h4 id="titleNavFooter">Legal</h4>
-                <a href="#"><li>Privacy policy</li></a>
-                <a href="#"><li>Terms of Service</li></a>
-                <a href="#"><li>Cookie Policy</li></a>
-                <a href="#"><li>ㅤ</li></a>
+                <a href="#">
+                    <li>Privacy policy</li>
+                </a>
+                <a href="#">
+                    <li>Terms of Service</li>
+                </a>
+                <a href="#">
+                    <li>Cookie Policy</li>
+                </a>
+                <a href="#">
+                    <li>ㅤ</li>
+                </a>
             </ul>
         </nav>
 
@@ -295,13 +327,23 @@
 
         </div>
     </footer>
+    <script>
+        const reveals = document.querySelectorAll('.reveal');
 
+        const observer = new IntersectionObserver(
+            entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            },
+            { threshold: 0.15 }
+        );
 
-
-
-
-
-
+        reveals.forEach(el => observer.observe(el));
+    </script>
 </body>
+
 
 </html>
