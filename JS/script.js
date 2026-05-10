@@ -17,7 +17,3 @@ const produtos = [
     badges: ['Zero Sugar','Metabolism Boost','Natural Flavour','Vitamin Rich']
   }
 ]
-
-
-
-1
