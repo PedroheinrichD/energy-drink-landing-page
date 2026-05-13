@@ -103,11 +103,6 @@
     transform: scale(1);
 }
 
-.buttonCart:hover {
-    transition-property: transform;
-    transition-duration: 0.2s;
-    transform: scale(1.05);
-}
 
 .arrow-btn-Container {
     display: flex;
