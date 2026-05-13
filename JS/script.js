@@ -42,19 +42,20 @@ function irEsquerda(){
 }
 
 let card = document.querySelector('.card');
+
 function renderCard(){
 
 card.innerHTML = `
-            <div class="img_Product_card_PC">
+            <div class="img_Product_card_PC animate__fadeIn animate__animated">
                 <img src="${produtos[indexAtual].img_Product_card_PC}" alt="">
             </div>
 
-            <div class="text_Product_card">
-                <h3 id="flavor" style="color:${produtos[indexAtual].color};"'>${produtos[indexAtual].flavor}</h3>
+            <div class="text_Product_card animate__bounceInRight animate__animated">
+                <h3 id="flavor" style="color:${produtos[indexAtual].color}"'>${produtos[indexAtual].flavor}</h3>
                 <h2 id="titleProduct">${produtos[indexAtual].titleProduct}</h2>
                 <p id="descProduct">${produtos[indexAtual].descProduct}</p>
 
-                <div class="img_Product_card_MOBILE">
+                <div class="img_Product_card_MOBILE animate__fadeIn animate__animated">
                     <img src="${produtos[indexAtual].img_Product_card_MOBILE}" alt="">
                 </div>
 
@@ -67,7 +68,7 @@ card.innerHTML = `
 
                 <div class="containerButtonCart">
                     <button class="arrow-btn left mobileBTN">‹</button>
-                    <div class="buttonCart" style="background-color:${produtos[indexAtual].color};"><a href="#">Add to Cart</a></div>
+                    <div class="buttonCart" style="background-color:${produtos[indexAtual].color}"><a href="#">Add to Cart</a></div>
                     <button class="arrow-btn right mobileBTN">›</button>
                 </div>
             </div>
